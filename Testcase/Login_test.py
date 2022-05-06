@@ -17,9 +17,9 @@ class Testwangyi(unittest.TestCase):  #unittest.TestCase类名
         iframe = browser.find_element(By.XPATH,
                                       "//div[@id = 'loginDiv']/iframe[@frameborder = '0']") #通过向上一层找到了id = loginDiv是唯一的，所以可以通过xpath定位，用iframe的固定参数frameborder = '0'定位到iframe
         browser.switch_to.frame(iframe)
-        browser.find_element(By.NAME,"email").send_keys('a416437020')
-        # browser.find_element_by_name('password').send_keys('b416437020')
-        browser.find_element(By.NAME,'password').send_keys('b416437020')
+        browser.find_element(By.NAME,"email").send_keys('xxxxxx')
+        # browser.find_element_by_name('password').send_keys('xxxxxx')
+        browser.find_element(By.NAME,'password').send_keys('xxxxxx')
         # browser.find_element_by_id('dologin').click()
         browser.find_element(By.ID,'dologin').click()
         time.sleep(3)
