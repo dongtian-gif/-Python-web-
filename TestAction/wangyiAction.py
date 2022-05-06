@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
     # '''指定位置保存测试报告'''
     # file_path = './send_email.html'
-    file_path = os.path.join(os.getcwd() + '/report/' + 'wangyi2_case.html')
+    file_path = os.path.join(os.getcwd() + '/report/' + 'wangyi_case.html')
     p = open(file_path, 'wb')
     # '''指定测试输出报告，及标题，描述'''
     runner = HTMLTestRunner.HTMLTestRunner(stream=p, title='163邮件登录及发送邮件的测试报告',

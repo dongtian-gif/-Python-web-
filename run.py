@@ -18,7 +18,7 @@ from TestAction.wangyiAction import TestWangyi
 
 
 #创建一个测试执行计划，采用HTMLTestRunner生成测试报告
-file_path = os.path.join(os.getcwd() + '/report/' + 'wangyi2_case.html')
+file_path = os.path.join(os.getcwd() + '/report/' + 'wangyi_case.html')
 p = open(file_path, 'wb')
 # '''指定测试输出报告，及标题，描述'''
 suite = unittest.TestSuite()
