@@ -28,9 +28,9 @@ class TestWangyi(unittest.TestCase):
         driver.switch_to.frame(iframe)
 
         # browser.find_element_by_name('email').send_keys('xxxxx')
-        driver.find_element(By.NAME, "email").send_keys('xxxxx')
+        driver.find_element(By.NAME, "email").send_keys('xxxxxxx')
         # browser.find_element_by_name('password').send_keys('xxxxxx')
-        driver.find_element(By.NAME, 'password').send_keys('xxxxxx')
+        driver.find_element(By.NAME, 'password').send_keys('xxxxxxxx')
         # browser.find_element_by_id('dologin').click()
         driver.find_element(By.ID, 'dologin').click()
         sleep(2)
